@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback</title>
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+    <form method="POST" action="/feedback1">
+        <label for="visitor">Visitor ID:</label>
+        <input type="number" id="visitor" name="visitor"><br><br>
+        <label for="exhibitor">Exhibitor ID:</label>
+        <input type="number" id="exhibitor" name="exhibitor"><br><br>
+        <label for="rating">Rating:</label>
+        <input type="number" id="rating" name="rating"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <!-- display recommendations obtained from app.py -->
+    <h2>Recommendations</h2>
+    <ul>
+        Your Visitor ID: {{ visitor_id }}
+        {% for recommendation in recommendations %}
+        <li>{{ recommendation }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PS1</title>
+</head>
+
+<body>
+    <h1>Enter Data</h1>
+    <form method="POST" action="/ps3">
+        <label for="event_type">Event Type:</label>
+        <select id="event_type" name="event_type">
+            <option value="0">Concert</option>
+            <option value="1">Conference</option>
+            <option value="2">Expo</option>
+            <option value="3">Workshop</option>
+        </select>
+        <br><br>
+        <label for="location">Location:</label>
+        <select id="location" name="location" required>
+            <option value="0">A</option>
+            <option value="1">B</option>
+            <option value="2">C</option>
+            <option value="3">D</option>
+            <option value="4">E</option>
+        </select>
+        <br><br>
+        <label for="day_of_week">Day of Week:</label>
+        <select id="day_of_week" name="day_of_week" required>
+            <option value="2">Sunday</option>
+            <option value="3">Monday</option>
+            <option value="4">Tuesday</option>
+            <option value="5">Wednesday</option>
+            <option value="6">Thursday</option>
+            <option value="0">Friday</option>
+            <option value="1">Saturday</option>
+        </select>
+        <br><br>
+        <label for="month">Month:</label>
+        <select id="month" name="month" required>
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+        </select>
+        <br><br>
+        <label for="weather_condition">Weather Condition:</label>
+        <select id="weather_condition" name="weather_condition" required>
+            <option value="0">Cloudy</option>
+            <option value="1">Rainy</option>
+            <option value="2">Sunny</option>
+        </select>
+        <br><br>
+        <label for="ticket_price">Ticket Price:</label>
+        <input type="number" name="ticket_price" required>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

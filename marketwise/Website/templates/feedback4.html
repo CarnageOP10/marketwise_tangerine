@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback4</title>
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+    <form method="POST" action="/feedback4">
+        <label for="actual_roi_metrics">Actual ROI Metrics (Ground Truth):</label>
+        <input type="float" id="actual_roi_metrics" name="actual_roi_metrics" required>
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Inferenced ROI Metric: {{ prediction }}</h2>
+</body>
+
+</html>

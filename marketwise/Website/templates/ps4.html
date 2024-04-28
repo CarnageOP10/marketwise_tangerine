@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PS1</title>
+</head>
+
+<body>
+    <h1>Enter Data</h1>
+    <form method="POST" action="/ps4">
+        <label for="industry">Industry:</label>
+        <select id="industry" name="industry">
+            <option value="0">Automotive</option>
+            <option value="1">Finance</option>
+            <option value="2">Healthcare</option>
+            <option value="3">Retail</option>
+            <option value="4">Technology</option>
+            <option value="5">Wellness</option>
+        </select>
+        <br><br>
+        <label for="company_size">Company Size:</label>
+        <select id="company_size" name="company_size">
+            <option value="0">Large</option>
+            <option value="1">Medium</option>
+            <option value="2">Small</option>
+        </select>
+        <br><br>
+        <label for="package_type">Package Type:</label>
+        <select id="package_type" name="package_type">
+            <option value="0">Associate Sponsor</option>
+            <option value="1">Co-Sponsor</option>
+            <option value="2">Title Sponsor</option>
+        </select>
+        <br><br>
+        <label for="sponsorship_amount">Sponsorship Amount:</label>
+        <input type="number" id="sponsorship_amount" name="sponsorship_amount">
+        <br><br>
+        <label for="marketing_activities">Marketing Activities:</label>
+        <select id="marketing_activities" name="marketing_activities">
+            <option value="0">Booth space</option>
+            <option value="1">Logo placement</option>
+            <option value="2">Promotional materials</option>
+            <option value="3">Social media mentions</option>
+        </select>
+        <br><br>
+        <label for="duration">Event Duration:</label>
+        <input type="number" id="duration" name="duration">
+        <br><br>
+        <label for="event_type">Event Type:</label>
+        <select id="event_type" name="event_type">
+            <option value="0">Conference</option>
+            <option value="1">Exhibition</option>
+            <option value="2">Seminar</option>
+            <option value="3">Workshop</option>
+        </select>
+        <br><br>
+        <label for="event_month">Event Month:</label>
+        <select id="event_month" name="event_month">
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+        </select>
+        <br><br>
+        <label for="attendee_demographics">Attendee Demographics:</label>
+        <select id="attendee_demographics" name="attendee_demographics">
+            <option value="0">Finance professionals</option>
+            <option value="1">General public</option>
+            <option value="2">Healthcare providers</option>
+            <option value="3">IT professionals</option>
+            <option value="4">Tech enthusiasts</option>
+        </select>
+        <br><br>
+        <label for="feedback">Feedback:</label>
+        <select id="feedback" name="feedback">
+            <option value="0">Negative</option>
+            <option value="1">Neutral</option>
+            <option value="2">Positive</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
