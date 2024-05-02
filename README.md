@@ -42,7 +42,7 @@ This project involved analyzing the return on investment (ROI) for event sponsor
 - `PS1`: Contains code and documentation for Problem Statement 1.
 - `PS3`: Contains code and documentation for Problem Statement 3.
 - `PS4`: Contains code and documentation for Problem Statement 4.
-- `Website`: Contains the code for the flask app of Problem Statement model deployment as wll as Problem statement 1
+- `Website`: Contains the code for the flask app of Problem Statement model deployment as wll as Problem statement 2
 - `instance`: Contains SQLite database.
 
 ## Contributors
